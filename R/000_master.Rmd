@@ -1,0 +1,69 @@
+---
+title: 'New Project title'
+author: 'Your name'
+date: '`r Sys.Date()`'
+output:
+  html_document:
+    keep_md: yes
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+source(here::here('R', '002_folder-paths-and-options.R'))
+source(here::here('R', '005_libraries.R'))
+source(here::here('R', '010_import-data.R'))
+source(here::here('R', '020_tidy-data.R'))
+source(here::here('R', '050_transform-data.R'))
+source(here::here('R', '080_visualize-data.R'))
+source(here::here('R', '090_descriptive-tables.R'))
+source(here::here('R', '100_model1.R'))
+source(here::here('R', '110_visualize-model1.R'))
+source(here::here('R', '120_summarize-model1.R'))
+source(here::here('R', '200_model2.R'))
+source(here::here('R', '210_visualize-model2.R'))
+source(here::here('R', '220_summarize-model2.R'))
+source(here::here('R', '500_text-stuff.R'))
+source(here::here('R', '999_R-technical-appendix.R'))
+```
+ 
+```{r, child = here::here('R', '001_opening-statement.Rmd')} 
+``` 
+
+```{r, child = here::here('R', '010_import-data.Rmd')} 
+``` 
+
+```{r, child = here::here('R', '020_tidy-data.Rmd')} 
+``` 
+
+```{r, child = here::here('R', '050_transform-data.Rmd')} 
+``` 
+
+```{r, child = here::here('R', '080_visualize-data.Rmd')} 
+``` 
+
+```{r, child = here::here('R', '090_descriptive-tables.Rmd')} 
+``` 
+
+```{r, child = here::here('R', '100_model1.Rmd')} 
+``` 
+
+```{r, child = here::here('R', '110_visualize-model1.Rmd')} 
+``` 
+
+```{r, child = here::here('R', '120_summarize-model1.Rmd')} 
+``` 
+
+```{r, child = here::here('R', '200_model2.Rmd')} 
+``` 
+
+```{r, child = here::here('R', '210_visualize-model2.Rmd')} 
+``` 
+
+```{r, child = here::here('R', '220_summarize-model2.Rmd')} 
+``` 
+
+```{r, child = here::here('R', '500_text-stuff.Rmd')} 
+``` 
+
+```{r, child = here::here('R', '600_conclusions.Rmd')} 
+``` 
+
